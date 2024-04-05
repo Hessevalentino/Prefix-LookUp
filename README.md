@@ -1,4 +1,5 @@
 Tabulka mezinárodních volacích znaků
+
 2AA-2AZ	2BA-2BZ	United Kingdom of Great Britain and Northern Ireland
 2CA-2CZ	2DA-2DZ	
 2EA-2EZ	2FA-2FZ	
