@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radioamatérská Volací Značka</title>
-    <!-- Přidání Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <button type="submit" class="btn btn-primary">Look</button>
         </form>
-        <!-- Zde bude zobrazen výsledek vyhledávání -->
+        <!-- Vyhledávání -->
         <div class="mt-4" id="result"></div>
     </div>
 </body>
