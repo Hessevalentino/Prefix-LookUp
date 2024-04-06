@@ -24,7 +24,9 @@
                 // Databáze s předem danými prefixy a zeměmi
                 $countries = array(
                     "OK" => "Czech Republic",
-                    "US" => "United States",
+                    "2A" => "United Kingdom of Great Britain and Northern Ireland",
+                    "2B" => "United Kingdom of Great Britain and Northern Ireland",
+                    "2C" => "United Kingdom of Great Britain and Northern Ireland",
                     "US" => "Raousko",
                     "OM" => "Slovensko",
                     "3H" => "China",
