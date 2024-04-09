@@ -9,13 +9,13 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="mb-4">Vyhledat Zemi podle Radioamatérské Volací Značky</h1>
+        <h1 class="mb-4">Vyhledat Zemi podle radioamatérské značky</h1>
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
             <div class="form-group">
                 <label for="callsign">Zadejte volací značku nebo jen PREFIX:</label>
                 <input type="text" class="form-control" id="callsign" name="callsign" required>
             </div>
-            <button type="submit" class="btn btn-primary" name="submit">Look</button>
+            <button type="submit" class="btn btn-primary" name="submit">LookUp prefix</button>
         </form>
         <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
@@ -974,8 +974,8 @@
             // Výstup
             echo "<div class='mt-4'>";
             echo "<h2>Informace o volací značce $callsign:</h2>";
-            echo "<p><strong>Prefix:</strong> $prefix</p>";
-            echo "<p><strong>Země:</strong> $country</p>";
+            echo "<p><strong>První dva znaky prefixu:</strong> $prefix</p>";
+            echo "<p><strong>Země prefixu:</strong> $country</p>";
             echo "</div>";
         }
         ?>
